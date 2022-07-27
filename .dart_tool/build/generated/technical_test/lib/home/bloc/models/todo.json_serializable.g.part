@@ -1,0 +1,13 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_TODO _$$_TODOFromJson(Map<String, dynamic> json) => _$_TODO(
+      task: json['task'] as String,
+      isDone: json['isDone'] as bool,
+    );
+
+Map<String, dynamic> _$$_TODOToJson(_$_TODO instance) => <String, dynamic>{
+      'task': instance.task,
+      'isDone': instance.isDone,
+    };
