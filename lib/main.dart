@@ -8,7 +8,6 @@ import 'package:technical_test/home/view/home_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   final storage = await HydratedStorage.build(
     storageDirectory: await getTemporaryDirectory(),
   );

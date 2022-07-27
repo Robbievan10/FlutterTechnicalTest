@@ -17,10 +17,10 @@ class HomeBody extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisSize: MainAxisSize.max,
-        children: const [
-          TODOsTitle(),
+        children: [
+          const TODOsTitle(),
           TODOsInput(),
-          TODOsList(),
+          const Expanded(child: TODOsList()),
         ],
       ),
     );
